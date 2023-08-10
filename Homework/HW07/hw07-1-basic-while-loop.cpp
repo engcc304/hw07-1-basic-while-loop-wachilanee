@@ -36,16 +36,17 @@ int main()
     int N,i;
     printf("Input Number :");
     scanf("%d",&N);
+    printf("\n");
     if (N % 2 == 0){
         while (i < N){
             i = i + 1;
-            printf(" (%d) Hello World\n",i);
+            printf("(%d) Hello World\n",i);
         }
     }
     else{
         while (i < N){
             i = i + 1;
-            printf(" [%d] Hello World\n",i);
+            printf("[%d] Hello World\n",i);
         }
         
     }
